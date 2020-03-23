@@ -1,19 +1,15 @@
 {
-	"architectures": [
-		"GPT2LMHeadModel"
-	],
-	"bos_token_id": 50256,
-	"eos_token_ids": [
-		50256
-	],
-	"initializer_range": 0.02,
-	"layer_norm_epsilon": 1e-05,
-	"model_type": "gpt2",
-	"n_ctx": 1024,
-	"n_embd": 768,
-	"n_head": 12,
-	"n_layer": 12,
-	"n_positions": 1024,
-	"pad_token_id": 50256,
-	"vocab_size": 50257
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "bos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "vocab_size": 50257
 }
