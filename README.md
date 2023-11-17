@@ -52,3 +52,17 @@ for step in range(5):
 	# pretty print last ouput tokens from bot
 	print("DialoGPT: {}".format(tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)))
 ```
+
+# [Open LLM Leaderboard Evaluation Results](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+Detailed results can be found [here](https://huggingface.co/datasets/open-llm-leaderboard/details_microsoft__DialoGPT-small)
+
+| Metric                | Value                     |
+|-----------------------|---------------------------|
+| Avg.                  | 25.02   |
+| ARC (25-shot)         | 25.77          |
+| HellaSwag (10-shot)   | 25.79    |
+| MMLU (5-shot)         | 25.81         |
+| TruthfulQA (0-shot)   | 47.49   |
+| Winogrande (5-shot)   | 50.28   |
+| GSM8K (5-shot)        | 0.0        |
+| DROP (3-shot)         | 0.0         |
