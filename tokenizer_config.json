@@ -1,1 +1,4 @@
-{"model_max_length": 1024}
+{
+  "model_max_length": 1024,
+  "chat_template": "{% for message in messages %}{{ message.content }}{{ eos_token }}{% endfor %}"
+}
